@@ -1,0 +1,43 @@
+.container-wrapper {
+  display: grid;
+  place-content: center;
+  gap: 100px;
+}
+.container {
+  display: grid;
+  place-items: center;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.buttons {
+  display: flex;
+}
+
+#count {
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  padding: 15px 20px;
+  margin: 0 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
